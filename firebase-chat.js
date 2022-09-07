@@ -2,7 +2,7 @@
   // TODO: replace this with your own firebase config object after creating app in your firebase console
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyAS5lJopFrWuiZ2wKYaykXOB4qiv8HKtvA",
+    apiKey: "${{secrets.API_KEY}}",
     authDomain: "fir-chat-1f3a4.firebaseapp.com",
     projectId: "fir-chat-1f3a4",
     storageBucket: "fir-chat-1f3a4.appspot.com",
