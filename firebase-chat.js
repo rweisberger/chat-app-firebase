@@ -15,7 +15,7 @@
   // handle on firebase db
   const db = firebase.database();
 
-  process.env.API_KEY
+  // process.env.API_KEY
 
   // get elements
   let email = document.getElementById('email');
