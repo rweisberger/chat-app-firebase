@@ -1,0 +1,22 @@
+.chat {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border: 1px solid lightgray;
+  color: black;
+  border-radius: 5px;
+  border-style: ridge;
+  width: 100%;
+}
+
+.chat-sender {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  height: 35px;
+  font-weight: bold;
+}
+.chat-viewer {
+  height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
